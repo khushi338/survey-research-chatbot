@@ -1,0 +1,65 @@
+{
+  "survey_id": "job_satisfaction_001",
+  "title": "Job Satisfaction Survey",
+  "description": "A conversational survey to understand employee job satisfaction.",
+  "questions": [
+    {
+      "id": "Q1",
+      "text": "What is your age?",
+      "type": "number",
+      "required": true
+    },
+    {
+      "id": "Q2",
+      "text": "What is your gender?",
+      "type": "choice",
+      "options": ["Male", "Female", "Other", "Prefer not to say"],
+      "required": true
+    },
+    {
+      "id": "Q3",
+      "text": "Are you currently employed?",
+      "type": "choice",
+      "options": ["Yes", "No"],
+      "required": true
+    },
+    {
+      "id": "Q4",
+      "text": "What is your current job role?",
+      "type": "text",
+      "required": true,
+      "show_if": {
+        "Q3": "Yes"
+      }
+    },
+    {
+      "id": "Q5",
+      "text": "How satisfied are you with your current job?",
+      "type": "choice",
+      "options": ["Very satisfied", "Satisfied", "Neutral", "Dissatisfied", "Very dissatisfied"],
+      "required": true,
+      "show_if": {
+        "Q3": "Yes"
+      }
+    },
+    {
+      "id": "Q6",
+      "text": "What is the main reason you are currently unemployed?",
+      "type": "text",
+      "required": true,
+      "show_if": {
+        "Q3": "No"
+      }
+    },
+    {
+      "id": "Q7",
+      "text": "Would you recommend your organization as a good place to work?",
+      "type": "choice",
+      "options": ["Yes", "No", "Not sure"],
+      "required": false,
+      "show_if": {
+        "Q3": "Yes"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+session_id,survey_id,question_id,answer,created_at
+5502636b-74b8-4ee1-ae16-5b46664c307a,job_satisfaction_001,Q1,21,2026-01-14 06:09:06
+5502636b-74b8-4ee1-ae16-5b46664c307a,job_satisfaction_001,Q2,Female,2026-01-14 06:09:10
+5502636b-74b8-4ee1-ae16-5b46664c307a,job_satisfaction_001,Q3,No,2026-01-14 06:09:12
+5502636b-74b8-4ee1-ae16-5b46664c307a,job_satisfaction_001,Q6,still figuring out,2026-01-14 06:09:19
+97569fbd-f277-424e-a5ca-df58c6d6e8f8,job_satisfaction_001,Q1,29,2026-01-14 06:16:21
+97569fbd-f277-424e-a5ca-df58c6d6e8f8,job_satisfaction_001,Q2,Female,2026-01-14 06:16:26
+97569fbd-f277-424e-a5ca-df58c6d6e8f8,job_satisfaction_001,Q3,Yes,2026-01-14 06:16:31
+97569fbd-f277-424e-a5ca-df58c6d6e8f8,job_satisfaction_001,Q4,manager,2026-01-14 06:16:39
+97569fbd-f277-424e-a5ca-df58c6d6e8f8,job_satisfaction_001,Q5,Neutral,2026-01-14 06:16:48
+97569fbd-f277-424e-a5ca-df58c6d6e8f8,job_satisfaction_001,Q7,Yes,2026-01-14 06:16:58
+fa668982-a5bb-4dc1-8b6d-c4d1cc89d13a,job_satisfaction_001,Q2,Female,2026-01-14 06:41:50
+fa668982-a5bb-4dc1-8b6d-c4d1cc89d13a,job_satisfaction_001,Q2,Male,2026-01-14 06:42:32
+610202b9-651e-4e34-8a5f-ba71c9bd9e4f,job_satisfaction_001,Q1,25,2026-01-14 06:50:06
+610202b9-651e-4e34-8a5f-ba71c9bd9e4f,job_satisfaction_001,Q1,25,2026-01-14 06:50:27
+610202b9-651e-4e34-8a5f-ba71c9bd9e4f,job_satisfaction_001,Q2,Female,2026-01-14 06:52:37
+f37d1cc0-c30a-4d6a-9c50-8d57ad1697ee,job_satisfaction_001,Q1,20,2026-01-14 06:54:41
+f37d1cc0-c30a-4d6a-9c50-8d57ad1697ee,job_satisfaction_001,Q2,Female,2026-01-14 06:56:38
+f37d1cc0-c30a-4d6a-9c50-8d57ad1697ee,job_satisfaction_001,Q3,No,2026-01-14 06:57:17
+f37d1cc0-c30a-4d6a-9c50-8d57ad1697ee,job_satisfaction_001,Q6,Still figuring out,2026-01-14 06:58:01
+e4ae4036-49a4-42ae-8ccf-352f5e9c4110,job_satisfaction_001,Q1,20,2026-01-14 07:05:08
+e4ae4036-49a4-42ae-8ccf-352f5e9c4110,job_satisfaction_001,Q2,Male,2026-01-14 07:05:14
+e4ae4036-49a4-42ae-8ccf-352f5e9c4110,job_satisfaction_001,Q3,Yes,2026-01-14 07:05:23
+e4ae4036-49a4-42ae-8ccf-352f5e9c4110,job_satisfaction_001,Q4,manager,2026-01-14 07:06:06
+e4ae4036-49a4-42ae-8ccf-352f5e9c4110,job_satisfaction_001,Q5,Very satisfied,2026-01-14 07:06:13
+e4ae4036-49a4-42ae-8ccf-352f5e9c4110,job_satisfaction_001,Q7,Yes,2026-01-14 07:06:19
