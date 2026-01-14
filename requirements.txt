@@ -3,5 +3,5 @@ uvicorn
 streamlit
 requests
 pandas
-sqlite3
 python-dotenv
+
