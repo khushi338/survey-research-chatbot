@@ -1,3 +1,8 @@
+from app.db.analytics import (
+    get_question_response_counts,
+    get_completion_stats
+)
+
 import json
 import uuid
 
@@ -111,3 +116,15 @@ def submit_answer(payload: AnswerRequest):
         "message": "Answer recorded",
         "completed": completed
     }
+
+@app.get("/analytics/response-counts")
+def response_counts():
+    df = get_question_response_counts()
+    return df.to_dict(orient="records")
+
+
+@app.get("/analytics/completion-stats")
+def completion_stats():
+    df = get_completion_stats()
+    return df.to_dict(orient="records")
+
